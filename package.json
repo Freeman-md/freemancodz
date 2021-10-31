@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "aos": "^2.3.4",
+    "gsap": "^3.7.0",
+    "jquery": "^3.6.0",
+    "vue": "^3.0.5",
+    "vue-radial-progress": "^0.3.2",
+    "vue-scrollto": "^2.20.0",
+    "vuejs-progress-bar": "^1.2.7",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.4",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.3.7"
+  }
+}

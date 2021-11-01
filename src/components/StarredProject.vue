@@ -62,7 +62,7 @@ export default {
     
 
     const image = computed(() => {
-      if (props.project.title == 'E-Commerce Application With Integrated Payment Gateway') {
+      if (props.project.title == 'E-Commerce Application') {
         return '/assets/justbuy.png'
       } else if (props.project.title == 'Peexoo Freemancodz') {
         return '/assets/peexoo.png'

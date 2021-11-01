@@ -67,7 +67,9 @@ export default {
       } else if (props.project.title == 'Peexoo Freemancodz') {
         return '/assets/peexoo.png'
       } else if (props.project.title == 'Eden Allergies') {
-        return '/assets/eden-allergies.png'
+        return '/assets/edenallergies.png'
+      } else if (props.project.title == 'Xclusive Designs') {
+        return '/assets/xclusivedesigns.png'
       }
     })
 

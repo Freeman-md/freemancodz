@@ -8,11 +8,11 @@
         <Title :data="{index: '01.', text: 'About Me'}" />
 
         <h4 class="pt-5">
-          Hello! My name is Freeman and I enjoy creating things that are useful to humanity. My interest in web development started back in 2019 when I went through a Web Design Cookbook about the basics of HTML & CSS — turns out hacking together the structure and design of webpages taught me a lot about HTML & CSS!
+          Hello! Freeman here, and I like to make things that are useful to humanity. When I read a Web Style Cookbook in 2019 about the fundamentals of HTML & CSS, I became interested in web development. It turns out, however, that putting together the structure and design of webpages taught me a lot about HTML & CSS!
         </h4>
 
         <h6>
-          Fast-forward to today, and I've had the privilege of studying at Aptech Computer Education and participating in a global techwiz. My main focus these days is building accessible, exclusive products and digital experiences for the better of the society.
+          Fast-forward to today, I've had the honour of attending Middlesex University in London to study information technology. Building distinctive, accessible products and digital experiences for the benefit of society is my major emphasis right now.
         </h6>
 
         <span>Here are a few technologies I've been working with recently: </span>
@@ -27,9 +27,9 @@
       </div>
 
       <div class="md:pl-4 md:w-2/5">
-        <div class="relative rounded-full w-72 h-72 sm:h-80 sm:w-80 md:w-60 md:h-60 lg:h-72 lg:w-72" data-aos="fade" data-aos-delay="100" data-aos-easing="ease-in-out">
+        <div class="relative rounded-full w-72 h-72 sm:h-80 sm:w-80 md:w-60 md:h-60 lg:h-72 lg:w-72 overflow-hidden" data-aos="fade" data-aos-delay="100" data-aos-easing="ease-in-out">
           <div class="absolute inset-0 transition duration-200 rounded-full cursor-pointer bg-opacity-60 hover:bg-opacity-0" :class="{'bg-success': mode === 'dark', 'bg-navy': mode === 'light'}"></div>
-          <img src="/assets/me.png" class="transition duration-200 rounded-full cursor-pointer" :class="{'filter': grayscale, 'filter-none grayscale-0' : !grayscale}" @mouseover="grayscale = false" @mouseout="grayscale = true" />
+          <img src="/assets/me.jpeg" class="w-full h-full transition duration-200 rounded-full cursor-pointer object-cover" :class="{'filter': grayscale, 'filter-none grayscale-0' : !grayscale}" @mouseover="grayscale = false" @mouseout="grayscale = true" />
         </div>
       </div>
 

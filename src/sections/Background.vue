@@ -28,7 +28,7 @@
             </div>
             <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="900">
               <h2 class="text-base sm:text-lg sm:w-5/6 md:w-3/5" :class="mode === 'dark' ? 'text-slate' : 'text-dark-navy'">
-                I am a results oriented Full Stack Developer, with about 2 years of experience specialising in both front end (TailwindCSS, Vue, Vuex) and back end (mainly PHP and MySQL) web development. I am focused on building (and occasionally designing) exceptional digital experiences as well as building accessible, human-centered products.
+                I am a Goal-oriented Web Developer brings strong commitment to collaboration and solutions-oriented problem solving. Use various web design technologies to develop custom-crafted, customer-focused websites and designs. Committed to high standards of user experience, usability and speed over more than 2 years for multiple users. Lends detailed knowledge of SEO to increase visibility.
               </h2>
             </div>
             <br>

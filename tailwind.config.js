@@ -8,7 +8,7 @@ module.exports = {
                 'mono': ['Fira Mono', 'monospace']
             },
             backgroundImage: theme => ({
-                'me': "../src/assets/me.png')",
+                'me': "../src/assets/me.jpeg')",
             }), 
             textColor: theme => theme('colors'),
             backgroundColor: {

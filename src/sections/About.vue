@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="pt-28 mt-14 sm:mt-10 sm:pt-22 responsive-container" data-aos="fade-up" data-aos-easing="ease-in-out">
+  <div id="about" class="pt-28 sm:pt-22 responsive-container" data-aos="fade-up" data-aos-easing="ease-in-out">
     <div class="flex flex-col items-center mx-auto space-y-10 md:items-start md:justify-around md:flex-row md:w-3/4">
 
       <div class="flex-col space-y-5 text-base sm:text-lg md:w-3/5" :class="{'text-slate': mode === 'dark', 'text-navy': mode === 'light'}">

@@ -101,7 +101,7 @@ export default createStore({
     actions: {
         getProjects: async({commit}) => {
             commit('setLoading', {value: true})
-            const response = await fetch('https://xclusivejustbuy.herokuapp.com/api/v1/projects')
+            const response = await fetch('https://justbuy.xclusivedesigns.co.uk/api/v1/projects')
             const projects = await response.json()
             commit('setProjects', {projects})
             commit('setLoading', {value: false})

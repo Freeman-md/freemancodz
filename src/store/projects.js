@@ -8,7 +8,7 @@ export default [
         "icon":"fab fa-github-alt"
         },
         {
-        "url":"https://xclusivejustbuy.herokuapp.com",
+        "url":"https://justbuy.xclusivedesigns.co.ukm",
         "icon":"fas fa-external-link-alt"
         }
         ],

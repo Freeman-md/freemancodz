@@ -17,7 +17,7 @@
     <!-- Starred Projects -->
     <StarredProjects />
 
-    <Projects />
+    <!-- <Projects /> -->
 
     <Footer />
 

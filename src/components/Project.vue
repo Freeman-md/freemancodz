@@ -48,6 +48,9 @@ export default {
     lightenText() {
       this.lighten = !this.lighten
     }
+  },
+  created() {
+    console.log(this.project)
   }
 }
 </script>

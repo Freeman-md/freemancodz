@@ -6,7 +6,7 @@
     :data-aos-delay="100 * index"
   >
     <!-- Image -->
-    <div class="relative w-full transition duration-200 rounded-sm shadow-md h-80 md:h-52 md:w-3/5 lg:w-3/5 lg:h-80" @mouseover="imageMousedOver" @mouseout="imageMousedOut">
+    <div class="absolute md:relative w-full transition duration-200 rounded-sm shadow-md h-full md:h-52 md:w-3/5 lg:w-3/5 lg:h-80" @mouseover="imageMousedOver" @mouseout="imageMousedOut">
       <img :src="image" class="object-cover object-center w-full h-full rounded-sm" :alt="project.title"/>
       <div 
         class="absolute inset-0 transition duration-200 rounded-sm bg-dark-navy bg-opacity-90 md:bg-opacity-20"
@@ -16,7 +16,7 @@
     </div>
 
     <!-- Content -->
-    <div  class="absolute z-10 flex flex-col h-full px-10 py-24 -mt-10 space-y-4 md:items-end md:top-0 md:right-0 md:w-3/4 lg:w-1/2 md:p-0">
+    <div  class="relative md:absolute z-10 flex flex-col h-full p-14 md:-mt-10 space-y-4 md:items-end md:top-0 md:right-0 md:w-3/4 lg:w-1/2 md:p-0">
       <!-- Title -->
       <div class="flex flex-col items-start space-y-2 md:items-end">
         <span class="font-mono text-xs tracking-wider" :class="{'text-success': mode === 'dark', 'text-success md:text-dark-navy': mode === 'light'}">Exclusive Project</span>
@@ -36,7 +36,7 @@
       <!-- Icons -->
         <div class="flex items-center w-full space-x-4 text-lg md:justify-end">
             <a v-for="(link, index) in project.links" class="transition duration-200 " :class="{'hover:text-success text-lightest-slate': mode === 'dark', 'md:hover:text-dark-navy hover:text-success text-lightest-slate md:text-light-navy': mode === 'light'}" :key="index" :href="link.url" target="_blank">
-              <span :class="link.icon"></span>
+              <span v-if="link.url" :class="link.icon"></span>
             </a>
         </div>
       
@@ -62,14 +62,20 @@ export default {
     
 
     const image = computed(() => {
-      if (props.project.title == 'E-Commerce Application') {
-        return '/assets/justbuy.png'
-      } else if (props.project.title == 'Peexoo Freemancodz') {
-        return '/assets/peexoo.png'
-      } else if (props.project.title == 'Eden Allergies') {
-        return '/assets/edenallergies.png'
-      } else if (props.project.title == 'Xclusive Designs') {
-        return '/assets/xclusivedesigns.png'
+      if (props.project.title == 'E-Commerce Application With Integrated Payment Gateway') {
+        return '/assets/projects/justbuy.png'
+      } else if (props.project.title == 'Madam Boutique Online Store ') {
+        return '/assets/projects/madam-boutique.png'
+      } else if (props.project.title == 'Golfor Integrated Services - Your One-Stop Shop for Forex and E-commerce') {
+        return '/assets/projects/golfor-integrated-services.png'
+      } else if (props.project.title == 'BirBur - The Ultimate Car Booking Platform') {
+        return '/assets/projects/birbur.png'
+      } else if (props.project.title == 'Your Mental Insight: Advanced Electronic Assessments for Informed Mental Health Care') {
+        return '/assets/projects/your-mental-insight.png'
+      } else if (props.project.title == 'AcrossTheHorizon: Study Abroad Experts') {
+        return '/assets/projects/across-the-horizon.png'
+      } else if (props.project.title == 'Peexoo: Empowering Content Creators') {
+        return '/assets/projects/peexoo.png'
       }
     })
 

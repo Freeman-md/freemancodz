@@ -5,7 +5,7 @@
       <Title :data="{index: '03.', text: `Some things I've built`}" />
     </div>
 
-    <div class="flex flex-col space-y-16 md:space-y-24 ">
+    <div class="flex flex-col space-y-16 md:space-y-48 lg:space-y-24 ">
       <StarredProject 
         v-for="(project, index) in projects"
         :key="index"
